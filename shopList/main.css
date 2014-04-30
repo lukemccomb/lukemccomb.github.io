@@ -12,9 +12,7 @@ body {
 	width: 75%;
 	background-color: rgba(255, 255, 255, 0.75);
 	height: auto;
-	position: absolute;
-	top: 5%;
-	left: 12.5%;
+	margin: 3% auto 5% auto;
 	padding: 2%;
 	border-radius: 3em;
 	box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.45)
@@ -32,9 +30,20 @@ h3 {
 	font-size: 130%;
 }
 
-p img {
-	width: 8%;
-	height: 8%;
+.check {
+	position: absolute;
+	top: 25%;
+	left: 3%;
+	width: 4%;
+	height: auto;
+}
+
+.x {
+	position: absolute;
+	top: 15%;
+	right: 3%;
+	width: 4%;
+	height: auto;
 }
 
 .strike {
@@ -47,7 +56,14 @@ p img {
 	color: rgba(255, 0, 0, 1.0);
 }
 
-p {
+ul {
+	max-width: 75%;
+	margin: auto;
+	list-style: none;
+	padding: 0;
+}
+
+li {
 	font-size: 150%;
 	border: 1px solid #303030;
 	max-width: 65%;
@@ -57,9 +73,11 @@ p {
 	background-color: rgba(0, 100, 255, 0.55);
 	color: rgba(255, 255, 255, 1);
 	font-weight: 100;
+	position: relative;
+	padding: 0;
 }
 
-p:hover {
+li:hover {
 	color: rgba(0, 255, 0, 1);
 	background-color: rgba(0, 100, 255, 0.95);
 }
@@ -82,11 +100,7 @@ input {
 	background-color: rgba(0, 0, 0, 0.8);
 	font-size: 150%;
 	color: #FFFFFF;
-}
-
-#list {
-	max-width: 75%;
-	margin: auto;
+	width: 48%;
 }
 
 input:hover {
