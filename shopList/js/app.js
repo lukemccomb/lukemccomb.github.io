@@ -17,7 +17,7 @@ $(document).ready(function() {
 	function addItem() {
 		var item = $("#newitem").val();
 		var addli = '<li class="need"><img src="images/check.png" class="check">' + item + '<img src="images/x.png" class="x"></li>';
-		if(item.length > 0){			
+		if(item.length > 0){            
 			$("#list").append(addli);
 			$("#newitem").val('');
 		}
@@ -34,7 +34,7 @@ $(document).ready(function() {
 	$(document).on("click", ".check", function() {
 		$(this).closest('li').toggleClass("strike");
 		items = 0;
-	});	
+	}); 
 
 	$(document).on("click", ".x", function() {
 		$(this).closest('li').fadeOut(300);
