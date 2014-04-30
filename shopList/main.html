@@ -6,19 +6,20 @@
 	<style type="text/css"></style>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
-</head>
 <body>
 	<div id="main">
 		<i><img src="images/logo.png"></i>
 		<h1>SHOP LISTER</h1>
 		<h3>Type a new item and press 'enter' to add</h3>
-		<h3><img src="images/check.png"> to cross off    <img src="images/x.png"> to erase</h3>
-		<input type="text" name="newitem" placeholder="+ Add New Item +">
-		<ul>
-			<li class="strike"><img src="images/check.png" class="check">Apples<img src="images/x.png" class="x"></li>
-			<li class="need"><img src="images/check.png" class="check">Bananas<img src="images/x.png" class="x"></li>
+		<div id="inst">
+			<h3><img src="images/check.png"> to cross off</h3>
+			<h3><img src="images/x.png"> to erase</h3>
+		</div>
+		<input type="text" id="newitem" placeholder="+ Add New Item +" autocomplete="off" autofocus>
+		<ul id="list">
 		</ul>
+		<button name="reset" id="reset">Clear List</button>
 	</div>
+	<script type="text/javascript" script src="js/app.js"></script>
 </body>
 </html>
