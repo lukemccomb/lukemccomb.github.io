@@ -1,4 +1,94 @@
 body {
-	width: 100%;
+	font-family: Helvetica;
+	background: url('images/bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+  	height: 100%;
+  	color: #000000;
+  	margin: auto;
+}
+
+#main {
+	text-align: center;
+	width: 75%;
+	background-color: rgba(255, 255, 255, 0.75);
+	height: auto;
+	position: absolute;
+	top: 5%;
+	left: 12.5%;
+	padding: 2%;
+	border-radius: 3em;
+	box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.45)
+}
+
+h1 {
+	font-weight: 200;
+	font-size: 200%;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+	font-weight: 100;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	font-size: 130%;
+}
+
+p img {
+	width: 8%;
+	height: 8%;
+}
+
+.strike {
+	text-decoration: line-through;
+	color: #000000;
+	background-color: yellow;
+}
+
+.strike:hover {
+	color: rgba(255, 0, 0, 1.0);
+}
+
+p {
+	font-size: 150%;
+	border: 1px solid #303030;
+	max-width: 65%;
+	min-width: 25%;
+	margin: .5em auto .5em auto;
+	border-radius: .2em;
+	background-color: rgba(0, 100, 255, 0.55);
+	color: rgba(255, 255, 255, 1);
+	font-weight: 100;
+}
+
+p:hover {
+	color: rgba(0, 255, 0, 1);
+	background-color: rgba(0, 100, 255, 0.95);
+}
+
+h3 img {
+	width: 4%;
+	height: 4%;
+}
+
+i img {
+	max-width: 12%;
+	max-height: 12%;
+	border: 1px solid #000000;
+	border-radius: 2em;
+	padding: 1em;
+}
+
+input {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: 150%;
+	color: #FFFFFF;
+}
+
+#list {
+	max-width: 75%;
 	margin: auto;
+}
+
+input:hover {
+	background-color: #3f3f3f; 
 }
