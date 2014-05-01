@@ -2,8 +2,8 @@
 
 ## main.html
 
-1.`<i><img src="images/logo.png"></i>` - The `<i>` tag is [deprecated](http://www.w3schools.com/Tags/tag_i.asp). If you want something in italics, use CSS. Curious why you want to italicize a pic though? 
-1. `< div id="inst">` - This selector's name is not descriptive. I have no idea what it means ... Remember: there are three people who look at your code - yourself, your future self, others. Write for that audience.
+### 1. `<i><img src="images/logo.png"></i>` - The `<i>` tag is [deprecated](http://www.w3schools.com/Tags/tag_i.asp). If you want something in italics, use CSS. Curious why you want to italicize a pic though? 
+### 2. `< div id="inst">` - This selector's name is not descriptive. I have no idea what it means ... Remember: there are three people who look at your code - yourself, your future self, and others. Write for that audience.
 
 ## main.css
 
