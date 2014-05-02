@@ -20,13 +20,21 @@ i {
 	width: auto;
 	height: auto;
 }
-i img {
+.logo {
 	max-width: 12%;
 	max-height: 12%;
 	border: 1px solid #000000;
 	border-radius: 2em;
 	padding: 1em;
 	box-shadow: .25em .25em 1em #32CD32;
+}
+.logoh {
+	box-shadow: .25em .25em 1em #FFD700;
+	max-width: 12%;
+	max-height: 12%;
+	border: 1px solid #000000;
+	border-radius: 2em;
+	padding: 1em;
 }
 h1 {
 	font-weight: 500;
